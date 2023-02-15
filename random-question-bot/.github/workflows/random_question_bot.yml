@@ -1,0 +1,22 @@
+name: Run Random Question Bot
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+      - name: Build and run
+        run: |
+          cargo run --release
+        env:
+          QUESTIONS: ${{ secrets.QUESTIONS }}
+          WEBHOOK: ${{ secrets.WEBHOOK }}
