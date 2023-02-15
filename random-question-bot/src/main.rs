@@ -1,8 +1,11 @@
 use rand::seq::SliceRandom;
 use serde::{Deserialize, Serialize};
 use serde_json::{json, Value};
-use std::fs;
+use std::env;
 use std::error::Error;
+use std::fs;
+
+use dotenv::dotenv;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 struct Question {
@@ -11,7 +14,9 @@ struct Question {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let questions_file = fs::read_to_string("QUESTIONS")?;
+    dotenv().ok();
+
+    let questions_file = fs::read_to_string(&env::var("QUESTIONS")?)?;
     let questions: Vec<Question> = serde_json::from_str(&questions_file)?;
 
     let mut rng = rand::thread_rng();
@@ -26,7 +31,8 @@ async fn main() -> Result<(), Box<dyn Error>> {
     });
 
     let client = reqwest::Client::new();
-    let res = client.post("WEBHOOK")
+    let webhook_url = &env::var("WEBHOOK")?;
+    let res = client.post(webhook_url)
         .json(&json)
         .send()
         .await?;
