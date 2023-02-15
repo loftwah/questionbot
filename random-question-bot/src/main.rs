@@ -20,7 +20,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let questions: Vec<Question> = serde_json::from_str(&questions_file)?;
 
     let mut rng = rand::thread_rng();
-    let shuffled_questions = questions.choose_multiple(&mut rng, questions.len()).cloned().collect::<Vec<_>>();
+    let shuffled_questions = questions
+        .choose_multiple(&mut rng, questions.len())
+        .cloned()
+        .collect::<Vec<_>>();
     let question = &shuffled_questions[0];
 
     let question_text = &question.question;
@@ -32,10 +35,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let client = reqwest::Client::new();
     let webhook_url = &env::var("WEBHOOK")?;
-    let res = client.post(webhook_url)
-        .json(&json)
-        .send()
-        .await?;
+    let res = client.post(webhook_url).json(&json).send().await?;
     println!("{:?}", res);
 
     Ok(())

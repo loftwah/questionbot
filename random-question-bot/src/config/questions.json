@@ -1,17 +1,188 @@
 [
     {
-        "question": "What's your favorite book?"
+        "question": "What's the most ridiculous or funniest way you've injured yourself?"
     },
     {
-        "question": "What was the last TV show you binge-watched?"
+        "question": "What's your favourite way to unwind after a long day at work?"
     },
     {
-        "question": "What's the last movie you saw in a theater?"
+        "question": "What's the best way to spend a lazy Sunday afternoon?"
     },
     {
-        "question": "If you could only eat one food for the rest of your life, what would it be?"
+        "question": "What's your favourite Australian slang word or phrase, and what does it mean?"
     },
     {
-        "question": "If you could have any superpower, what would it be?"
-    }
+        "question": "What's the most memorable holiday or vacation you've ever taken, and why?"
+    },
+    {
+        "question": "What's the most useful or interesting thing you've learned recently?"
+    },
+    {
+        "question": "If you could have a conversation with any historical figure, who would it be and why?"
+    },
+    {
+        "question": "What's the best piece of advice you've ever received?"
+    },
+    {
+        "question": "What's the most bizarre or interesting thing you've ever eaten?"
+    },
+    {
+        "question": "What's your favourite thing to do with friends or family?"
+    },
+    {
+        "question": "What's the best book you've read recently, and why did you enjoy it?"
+    },
+    {
+        "question": "What's your favourite board game or card game, and why?"
+    },
+    {
+        "question": "What's the most embarrassing thing that's ever happened to you at work?"
+    },
+    {
+        "question": "What's your favourite outdoor activity or sport?"
+    },
+    {
+        "question": "What's the most interesting thing you've ever done as a hobby or personal project?"
+    },
+    {
+        "question": "What's your favourite type of food or cuisine, and what's your go-to dish in that category?"
+    },
+    {
+        "question": "What's the best concert or music festival you've ever attended, and why was it so memorable?"
+    },
+    {
+        "question": "What's your favourite thing about the city or town you live in?"
+    },
+    {
+        "question": "What's the most valuable thing you've learned from a mistake you've made?"
+    },
+    {
+        "question": "What's your favourite TV show of all time, and why do you love it?"
+    },
+    {
+        "question": "What's the most interesting or unusual job you've ever had?"
+    },
+    {
+        "question": "What's the most impressive or unusual talent you have?"
+    },
+    {
+        "question": "What's the best way to stay motivated and focused on a long-term goal?"
+    },
+    {
+        "question": "What's the best advice you would give to someone just starting their career?"
+    },
+    {
+        "question": "What's your favourite way to stay active or exercise?"
+    },
+    {
+        "question": "What's the most beautiful natural landscape or scenery you've ever seen?"
+    },
+    {
+        "question": "What's the most interesting or unusual thing you've ever collected?"
+    },
+    {
+        "question": "What's the most fun or memorable party you've ever attended, and what made it so special?"
+    },
+    {
+        "question": "What's your favourite way to travel, and why?"
+    },
+    {
+        "question": "What's the most impressive or interesting architecture you've ever seen?"
+    },
+    {
+        "question": "What's your favourite type of animal, and why do you love it?"
+    },
+    {
+        "question": "What's the best way to learn a new skill or subject?"
+        },
+        {
+        "question": "What's your favourite type of coffee or tea, and how do you like to prepare it?"
+        },
+        {
+        "question": "What's the most interesting or unusual museum you've ever visited?"
+        },
+        {
+        "question": "What's the most creative or innovative thing you've ever done in your career?"
+        },
+        {
+        "question": "What's the best advice you've ever received about money or personal finance?"
+        },
+        {
+        "question": "What's your favourite type of art or artistic medium, and who's your favourite artist in that category?"
+        },
+        {
+        "question": "What's the most inspiring or motivational quote you've ever heard?"
+        },
+        {
+        "question": "What's the most interesting or unusual piece of clothing you own?"
+        },
+        {
+        "question": "What's the most fascinating or bizarre conspiracy theory you've ever heard of?"
+        },
+        {
+        "question": "What's your favourite thing to cook or bake, and why do you love making it?"
+        },
+        {
+        "question": "What's the most interesting or unusual fact you know?"
+        },
+        {
+        "question": "What's your favourite hobby or pastime, and how did you get into it?"
+        },
+        {
+        "question": "What's the most beautiful or breathtaking natural wonder you've ever seen?"
+        },
+        {
+        "question": "What's the most interesting or unusual podcast you've ever listened to?"
+        },
+        {
+        "question": "What's the best way to make a difficult decision?"
+        },
+        {
+        "question": "What's the most meaningful or significant accomplishment you've achieved in your life so far?"
+        },
+        {
+        "question": "What's the most interesting or unusual pet you've ever had?"
+        },
+        {
+        "question": "What's your favourite movie of all time, and why do you love it?"
+        },
+        {
+        "question": "What's the most unusual or interesting thing you've ever seen at a music festival or concert?"
+        },
+        {
+        "question": "What's your favourite way to enjoy the great outdoors, and why do you love it?"
+        },
+        {
+        "question": "What's the most interesting or unusual plant or flower you've ever seen?"
+        },
+        {
+        "question": "What's the most interesting or unusual app you've ever used?"
+        },
+        {
+        "question": "What's the best way to recover from a setback or failure?"
+        },
+        {
+        "question": "What's the most interesting or unusual piece of furniture you own?"
+        },
+        {
+        "question": "What's your favourite way to celebrate a milestone or achievement?"
+        },
+        {
+        "question": "What's the most interesting or unusual form of transportation you've ever used?"
+        },
+        {
+        "question": "What's your favourite type of dance, and what's your go-to song for dancing to it?"
+        },
+        {
+        "question": "What's the most meaningful or significant lesson you've learned from a difficult experience?"
+        },
+        {
+        "question": "What's the most impressive or interesting feat of engineering you've ever seen?"
+        },
+        {
+        "question": "What's the most interesting or unusual thing you've ever found or discovered?"
+        },
+        {
+        "question": "What's the best way to overcome procrastination and stay productive?"
+        }
 ]
