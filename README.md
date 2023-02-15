@@ -2,6 +2,8 @@
 
 QuestionBot is a Rust program that sends a random question to a Discord channel using a webhook. The program reads a list of questions from a JSON file, shuffles the questions, and selects a random question to send to the channel. The program is designed to be used as a Discord bot and can be scheduled to run on a regular basis or triggered manually using GitHub Actions.
 
+![QuestionBot](https://user-images.githubusercontent.com/19922556/218981108-28805416-6635-466b-aa4d-8baeafe7e7eb.jpg)
+
 ## Prerequisites
 
 To use QuestionBot, you need to provide the program with two environment variables: `QUESTIONS` and `WEBHOOK`. The `QUESTIONS` environment variable should contain the path to a JSON file that contains a list of questions in the following format:
